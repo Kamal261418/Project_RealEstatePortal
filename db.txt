@@ -1,0 +1,159 @@
+
+CREATE DATABASE [Teba]
+ 
+CREATE TABLE [dbo].[AdminReg](
+	[adminregid] [int] IDENTITY(1,1) NOT NULL,
+	[AdminName] [nvarchar](250) NULL,
+	[AdminDate] [nvarchar](250) NULL,
+	[AdminCountry] [nvarchar](250) NULL,
+	[AdminPhone] [char](11) NULL,
+	[AdminEmail] [nvarchar](250) NULL,
+	[AdminPassword] [nvarchar](250) NULL,
+	[AdminRePwd] [nvarchar](250) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[adminregid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[ClientReg]    Script Date: 4/24/2022 12:21:27 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ClientReg](
+	[clientid] [int] IDENTITY(1,1) NOT NULL,
+	[clientName] [nvarchar](250) NULL,
+	[clientDate] [nvarchar](250) NULL,
+	[clientCountry] [nvarchar](250) NULL,
+	[clientPhone] [nvarchar](250) NULL,
+	[clientEmail] [nvarchar](250) NULL,
+	[clientPassword] [nvarchar](250) NULL,
+	[RePwd] [nvarchar](250) NULL,
+	[clientPhoto] [nvarchar](450) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[clientid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[compStudUser]    Script Date: 4/24/2022 12:21:27 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[compStudUser](
+	[compStudidd] [int] IDENTITY(1,1) NOT NULL,
+	[compStudName] [nvarchar](250) NULL,
+	[compStudCountry] [nvarchar](250) NULL,
+	[compStudFac] [nvarchar](250) NULL,
+	[compStudUniv] [nvarchar](250) NULL,
+	[compStudUnivImag] [nvarchar](250) NULL,
+	[compStudClass] [nvarchar](250) NULL,
+	[compStudid] [nvarchar](450) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[compStudidd] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[compUserGrad]    Script Date: 4/24/2022 12:21:27 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[compUserGrad](
+	[compUserGradid] [int] IDENTITY(1,1) NOT NULL,
+	[compUserGradName] [nvarchar](250) NULL,
+	[compUserGradCountry] [nvarchar](250) NULL,
+	[compUserGradFac] [nvarchar](250) NULL,
+	[compUserGradUniv] [nvarchar](250) NULL,
+	[compUserGradIdd] [nvarchar](450) NULL,
+	[compUserGradcard] [nvarchar](450) NULL,
+	[compUserGradYearGrad] [nvarchar](250) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[compUserGradid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[projects]    Script Date: 4/24/2022 12:21:27 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[projects](
+	[projectid] [int] IDENTITY(1,1) NOT NULL,
+	[ProjectName] [nvarchar](400) NULL,
+	[ProjectImage] [nvarchar](400) NULL,
+	[ProjectDetails] [nvarchar](max) NULL,
+	[Projecthome] [nvarchar](max) NULL,
+	[projecttrade] [nvarchar](max) NULL,
+	[projectwork] [nvarchar](max) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[projectid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[suppliers]    Script Date: 4/24/2022 12:21:27 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[suppliers](
+	[supplierid] [int] IDENTITY(1,1) NOT NULL,
+	[companyName] [nvarchar](250) NULL,
+	[alternateName] [nvarchar](250) NULL,
+	[GeogrWork] [nvarchar](250) NULL,
+	[artWork] [nvarchar](250) NULL,
+	[mobile] [varchar](11) NULL,
+	[Emaile] [nvarchar](250) NULL,
+	[workPef] [nvarchar](250) NULL,
+	[logo] [nvarchar](450) NULL,
+	[Taxcard] [bit] NULL,
+	[Recordtrading] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[supplierid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[workersReg]    Script Date: 4/24/2022 12:21:27 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[workersReg](
+	[workerid] [int] IDENTITY(1,1) NOT NULL,
+	[workerName] [nvarchar](250) NULL,
+	[workerBirthDate] [nvarchar](250) NULL,
+	[workerCountry] [nvarchar](250) NULL,
+	[workerPhone] [nvarchar](250) NULL,
+	[workerEmail] [nvarchar](250) NULL,
+	[workerPassword] [nvarchar](250) NULL,
+	[Repassword] [nvarchar](250) NULL,
+	[workerPhoto] [nvarchar](450) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[workerid] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+USE [master]
+GO
+ALTER DATABASE [Teba] SET  READ_WRITE 
+GO

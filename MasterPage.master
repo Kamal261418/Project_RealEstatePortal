@@ -1,0 +1,148 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>البوابة العقارية</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="البوابة العقارية" />
+<meta name="description" content="البوابة العقارية" />
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="slide.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style6.css">
+<link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	
+
+
+
+	
+<!--بداية عناصر القائمة -->
+
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container d-flex align-items-center">
+				<div class="col-lg-2 pr-4 align-items-center">
+		    		<a class="navbar-brand" href="Default.aspx"><span><img src="images1\download.png" width="220" height="60" alt="this is lion"></span></a>
+	    		</div>              
+			</ul>
+	      &ensp;&ensp;&ensp;
+		  		  
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> القائمة
+	      </button>
+	     
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav mr-auto">
+			 <li class="nav-item active"><a href="Default.aspx" class="nav-link pl-0">الرئيسية</a></li>
+                <li class="nav-item"><a href="news.html" class="nav-link">اخبار</a></li>
+                <li class="nav-item"><a href="department.html" class="nav-link">شركات</a></li>
+                <li class="nav-item"><a href="city.html" class="nav-link">مدن جديدة</a></li>
+                <li class="nav-item"><a href="projects.aspx" class="nav-link">مقاولات</a></li>
+                <li class="nav-item"><a href="mawad.html" class="nav-link">موادبناء</a></li>
+                <li class="nav-item"><a href="ComptetionReg.aspx" class="nav-link">المسابقات</a></li>
+                <li class="nav-item"><a href="ContactUs.aspx" class="nav-link">اتصل بنا</a></li>
+				
+			  
+			  
+
+		  
+
+	    </div>
+	  </nav>
+            
+         <!-- نهاية عناصر القائمة -->
+    
+    </div>
+</div>
+
+<body >  
+
+  <form id="form1" runat="server">
+    <div>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        <br />
+        <br />
+        <br />
+        <br />
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    </body>
+
+<footer class="box-black2 padding-se-b">
+		
+		<div class="container">
+			<div class="row">
+				
+				<div class="f1 col-sm-6 col-md-3">
+					<h3>روابط سريعة</h3>
+					<ul id="menu-footer-menu2" class="list-a"><li id="menu-item-6281" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6281"><a href="https://www.aqar-gate.com/./%d8%a3%d8%ae%d8%a8%d8%a7%d8%b1/">أخبار</a></li>
+<li id="menu-item-6282" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6282"><a href="https://www.aqar-gate.com/./%d9%85%d8%af%d9%86-%d8%ac%d8%af%d9%8a%d8%af%d8%a9/">مدن جديدة</a></li>
+<li id="menu-item-6283" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6283"><a href="https://www.aqar-gate.com/./%d8%b4%d8%b1%d9%83%d8%a7%d8%aa/">شركات</a></li>
+<li id="menu-item-6284" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6284"><a href="https://www.aqar-gate.com/./%d9%85%d9%82%d8%a7%d9%88%d9%84%d8%a7%d8%aa-%d9%88%d8%a8%d9%86%d9%8a%d8%a9-%d8%aa%d8%ad%d8%aa%d9%8a%d8%a9/">مقاولات وبنية تحتية</a></li>
+<li id="menu-item-6285" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6285"><a href="https://www.aqar-gate.com/./%d9%85%d9%88%d8%a7%d8%af-%d8%a8%d9%86%d8%a7%d8%a1/">مواد بناء</a></li>
+<li id="menu-item-6286" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6286"><a href="https://www.aqar-gate.com/./%d8%a3%d8%b3%d9%88%d8%a7%d9%82/">أسواق</a></li>
+<li id="menu-item-6287" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6287"><a href="https://www.aqar-gate.com/./%d8%a8%d9%86%d9%88%d9%83-%d9%88%d8%aa%d9%85%d9%88%d9%8a%d9%84/">بنوك وتمويل</a></li>
+<li id="menu-item-6288" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6288"><a href="https://www.aqar-gate.com/./%d8%aa%d9%82%d8%a7%d8%b1%d9%8a%d8%b1-%d9%88%d9%85%d9%84%d9%81%d8%a7%d8%aa/">تقارير وملفات</a></li>
+</ul>				</div>
+				<div class="f2 col-sm-6 col-md-3">
+					<h3>الاكثر مشاهدة</h3>
+					<ul class="list-a">
+					
+	<li><a href="https://www.aqar-gate.com/%d8%b4%d8%b1%d9%83%d8%a7%d8%aa/%d8%b1%d9%88%d9%8a%d8%a7%d9%84-%d9%84%d9%84%d8%aa%d8%b7%d9%88%d9%8a%d8%b1-%d8%aa%d8%b1%d8%aa%d9%81%d8%b9-%d8%a8%d9%85%d8%b9%d8%af%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%a5%d9%86%d8%b4%d8%a7/">«رويال للتطوير» ترتفع بمعدلات الإنشاءات في 10 مشروعات بالنرجس للتسليم قبل الموعد المحدد</a></li>
+	
+	<li><a href="https://www.aqar-gate.com/%d8%a3%d8%ae%d8%a8%d8%a7%d8%b1/%d8%b3%d9%8a%d8%af%d8%a9-%d8%a7%d9%84%d8%a3%d8%b9%d9%85%d8%a7%d9%84-%d9%85%d9%86%d9%89-%d9%86%d9%88%d8%b1-%d8%aa%d8%aa%d8%ac%d9%87-%d8%a8%d8%a7%d8%b3%d8%aa%d8%ab%d9%85%d8%a7%d8%b1%d8%a7%d8%aa%d9%87/">سيدة الأعمال منى نور تتجه باستثماراتها للسوق العقاري المصري</a></li>
+	
+	<li><a href="https://www.aqar-gate.com/%d9%85%d8%af%d9%86-%d8%ac%d8%af%d9%8a%d8%af%d8%a9/%d9%85%d8%af-%d9%81%d8%aa%d8%b1%d8%a9-%d8%a7%d9%84%d8%aa%d8%b3%d8%ac%d9%8a%d9%84-%d9%88%d8%ad%d8%ac%d8%b2-%d8%a7%d9%84%d9%88%d8%ad%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d8%b3%d9%83%d9%86%d9%8a%d8%a9-%d8%a8/">مد فترة التسجيل وحجز الوحدات السكنية بمدينة بدر للعاملين بالعاصمة الإدارية حتى 28 أبريل</a></li>
+	
+	<li><a href="https://www.aqar-gate.com/%d8%b4%d8%b1%d9%83%d8%a7%d8%aa/%d8%a7%d9%84%d8%a8%d8%a7%d8%a8%d8%b7%d9%8a%d9%86-%d8%a7%d9%84%d9%83%d9%88%d9%8a%d8%aa%d9%8a%d8%a9-%d8%aa%d8%aa%d8%b9%d8%a7%d9%82%d8%af-%d9%85%d8%b9-%d8%b3%d9%8e%d9%81%d9%90%d9%84/">«البابطين الكويتية» تتعاقد مع «سَفِلز» لتأجير وإدارة مركز «رويال بارك» بالشيخ زايد</a></li>
+	
+	<li><a href="https://www.aqar-gate.com/%d9%85%d8%af%d9%86-%d8%ac%d8%af%d9%8a%d8%af%d8%a9/15-%d9%85%d8%a7%d9%8a%d9%88-%d8%a8%d8%af%d8%a1-%d8%aa%d8%b3%d9%84%d9%8a%d9%85-%d9%88%d8%ad%d8%af%d8%a7%d8%aa-%d8%b3%d9%83%d9%86-%d9%85%d8%b5%d8%b1-%d8%a8%d9%85%d8%af%d9%8a%d9%86%d8%a9-%d8%a7%d9%84/">15 مايو.. بدء تسليم وحدات سكن مصر بمدينة المنيا الجديدة</a></li>
+	
+	<li><a href="https://www.aqar-gate.com/%d9%85%d9%86%d9%88%d8%b9%d8%a7%d8%aa/%d8%a8%d8%aa%d9%84%d9%83%d9%88-%d9%88%d8%a5%d8%b1%d9%8a%d9%83%d8%b3%d9%88%d9%86-%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d9%86-%d9%85%d8%b0%d9%83%d8%b1%d8%a9-%d8%aa%d9%81%d8%a7%d9%87%d9%85-%d8%a8%d8%b4%d8%a3/">بتلكو وإريكسون توقعان مذكرة تفاهم بشأن تقنيات وابتكارات الجيل الخامس في البحرين</a></li>
+						</ul>
+				</div>
+				<div class="f3 col-sm-6 col-md-3">
+					<h3>روابط هامة</h3>
+					<ul class="list-keys">
+					<li><a href="https://www.aqar-gate.com/tag/%d8%a7%d9%84%d8%a8%d9%88%d8%a7%d8%a8%d8%a9-%d8%a7%d9%84%d8%b9%d9%82%d8%a7%d8%b1%d9%8a%d8%a9/">البوابة العقارية</a></li><li><a href="https://www.aqar-gate.com/tag/%d8%a7%d9%84%d8%b9%d8%a7%d8%b5%d9%85%d8%a9-%d8%a7%d9%84%d8%a5%d8%af%d8%a7%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af%d8%a9/">العاصمة الإدارية الجديدة</a></li><li><a href="https://www.aqar-gate.com/tag/%d8%a7%d9%84%d8%af%d9%83%d8%aa%d9%88%d8%b1-%d8%b9%d8%a7%d8%b5%d9%85-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%b1-%d9%88%d8%b2%d9%8a%d8%b1-%d8%a7%d9%84%d8%a5%d8%b3%d9%83%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d9%85/">الدكتور عاصم الجزار وزير الإسكان والمرافق والمجتمعات العمرانية</a></li><li><a href="https://www.aqar-gate.com/tag/%d8%a7%d9%84%d8%a8%d9%88%d8%b1%d8%b5%d8%a9-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9/">البورصة المصرية</a></li><li><a href="https://www.aqar-gate.com/tag/%d9%85%d8%af%d9%8a%d9%86%d8%a9-%d8%a7%d9%84%d9%82%d8%a7%d9%87%d8%b1%d8%a9-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af%d8%a9/">مدينة القاهرة الجديدة</a></li><li><a href="https://www.aqar-gate.com/tag/%d8%a7%d9%84%d8%af%d9%83%d8%aa%d9%88%d8%b1-%d8%b9%d8%a7%d8%b5%d9%85-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%b1/">الدكتور عاصم الجزار</a></li><li><a href="https://www.aqar-gate.com/tag/%d9%88%d8%b2%d9%8a%d8%b1-%d8%a7%d9%84%d8%a5%d8%b3%d9%83%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d9%85%d8%b1%d8%a7%d9%81%d9%82-%d9%88%d8%a7%d9%84%d9%85%d8%ac%d8%aa%d9%85%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9/">وزير الإسكان والمرافق والمجتمعات العمرانية</a></li><li><a href="https://www.aqar-gate.com/tag/%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a5%d8%b3%d9%83%d8%a7%d9%86/">وزارة الإسكان</a></li><li><a href="https://www.aqar-gate.com/tag/%d9%85%d8%af%d9%8a%d9%86%d8%a9-6-%d8%a3%d9%83%d8%aa%d9%88%d8%a8%d8%b1/">مدينة 6 أكتوبر</a></li><li><a href="https://www.aqar-gate.com/tag/%d8%a7%d9%84%d8%a5%d8%b3%d9%83%d8%a7%d9%86-%d8%a7%d9%84%d8%a7%d8%ac%d8%aa%d9%85%d8%a7%d8%b9%d9%89/">الإسكان الاجتماعى</a></li>					</ul>
+				</div>
+				<div class="f4 col-sm-6 col-md-3">
+					
+<div class="ftco-footer-widget mb-5">
+            	<h4 class="ftco-heading-2">اشترك لتعرف كل جديد</h4>
+              <form action="#" class="subscribe-form">
+                <div class="form-group">
+                  <input type="text" class="form-control mb-2 text-center" placeholder="ادخل بريدك الألكتروني">
+                  <input type="submit" value="أشترك" class="form-control submit px-3">
+                </div>
+              </form>
+            </div>
+				</div>				
+				
+				
+				
+				
+			</div>
+		</div>
+			
+
+	</footer>
+	 <!-- نهاية تزييل الموقع -->
+
+</html>
+ <!-- نهاية الموقع -->
